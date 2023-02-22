@@ -1,0 +1,44 @@
+.header {
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 15, 0.7), rgba(165, 167, 171, 0.7)), url(../Images/Header.avif);
+    background-size: cover;
+}
+
+.header-text {
+    color: white;
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 60px;
+}
+
+.header-text p {
+    font-size: 18px;
+}
+
+.about-button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+.about-button:hover {
+    background-color: #E67E22;
+    border: 1px solid #E67E22;
+    transition: 1s;
+}
